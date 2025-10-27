@@ -14,8 +14,7 @@ source venv/bin/activate   # On Windows use: venv\Scripts\activate
 pip install django djangorestframework
 
 
-Then freeze dependencies:
-pip freeze > requirements.txt
+Then freeze dependencies: pip freeze > requirements.txt
 
 3. Add the App in settings.py
 In myproject/settings.py, include the new app and REST framework:
@@ -30,7 +29,7 @@ INSTALLED_APPS = [
     'users',
 ]
 
-📧 4. Configure Gmail for Email Verification
+4. Configure Gmail for Email Verification
 Add this to the bottom of your settings.py file:
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
