@@ -98,8 +98,7 @@ python manage.py createsuperuser
 
 9. Run the Server
 python manage.py runserver
-Open the site in your browser:
-👉 http://127.0.0.1:8000/register/
+Open the site in your browser: http://127.0.0.1:8000/register/
 
 10. Test the Flow
 Register a new account on /register/
