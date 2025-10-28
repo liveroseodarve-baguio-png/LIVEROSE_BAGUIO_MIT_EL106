@@ -1,6 +1,8 @@
 # LIVEROSE_BAGUIO_MIT_EL106
 Performance Integration Task (PIT) Description – EL106
 
+NOTE: create a folder LIVEROSE_BAGUIO_MIT_EL106 and paste the folders above ...
+
 1. Setup Instructions
 Step 1: Clone or Create a New Django Project
 django-admin startproject myproject
